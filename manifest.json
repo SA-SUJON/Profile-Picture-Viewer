@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Profile Picture Viewer",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "View full-size profile pictures from Facebook, Instagram, and TikTok.",
     "author": "Adem Kouki",
     "permissions": [
