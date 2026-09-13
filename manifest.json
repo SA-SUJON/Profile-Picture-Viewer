@@ -1,14 +1,13 @@
 {
     "manifest_version": 3,
     "name": "Profile Picture Viewer",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "View full-size profile pictures from Facebook, Instagram, and TikTok.",
     "author": "Adem Kouki",
     "permissions": [
         "contextMenus",
         "tabs",
-        "scripting",
-        "declarativeNetRequest"
+        "scripting"
     ],
     "host_permissions": [
         "*://*.facebook.com/*",
@@ -18,15 +17,6 @@
     ],
     "background": {
         "service_worker": "background.js"
-    },
-    "declarative_net_request": {
-        "rule_resources": [
-            {
-                "id": "ruleset_1",
-                "enabled": true,
-                "path": "rules.json"
-            }
-        ]
     },
     "icons": {
         "16": "icons/16.png",
